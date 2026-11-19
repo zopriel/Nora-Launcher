@@ -2,6 +2,7 @@
 
 A custom Windows desktop launcher and bootstrapper for Roblox.
 
+## FOR ANY PROBLEMS, CONTACT ME ON MY DISCORD: .mxcz
 
 
 ---
