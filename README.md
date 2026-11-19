@@ -32,6 +32,7 @@ A custom Windows desktop launcher and bootstrapper for Roblox.
 * **Expanded Theme System & Dedicated Themes Window:** Additional themes and a separate themes window to keep Settings clean.
 * **Auto-Focus on Game Exit:** Automatically brings Nora to the front when closing Roblox.
 * **Community Bug Fixes:** Ongoing fixes for issues reported by users.
+* **Linux and MacOS Support:** Yes, Nora will fully support both of these OS's.
 
 ---
 
