@@ -22,16 +22,25 @@ A custom Windows desktop launcher and bootstrapper for Roblox.
 
 ---
 
-## Showcase / Upcoming Updates Preview
+## Launcher Showcase
+
+# Server Browser
+<img width="1258" height="759" alt="Screenshot 2026-11-19 080216" src="https://github.com/user-attachments/assets/f33f1a16-eefa-4ece-8e9b-d8b77a720354" />
+
+# Launch Options/Fast Flags
+<img width="1253" height="755" alt="Screenshot 2026-11-19 080244" src="https://github.com/user-attachments/assets/31d772f0-8a31-4295-8982-acfd7dcb3e22" />
+
+---
+
+## Upcoming Updates Preview
 
 A sneak peek at upcoming features currently in development, including the **Classic Pre-2023 Xbox One Theme** and **Full Controller Support**.
 
-### Classic Xbox Dashboard — Home & Friend Activity
-<img width="1273" height="757" alt="Screenshot 2026-11-19 075253" src="https://github.com/user-attachments/assets/ce6bbf8f-6dea-4906-b96a-406624b2fc12" />
+**Home Menu (Xbox One Menu)**
+<img width="1273" height="757" alt="Screenshot 2026-11-19 075253" src="https://github.com/user-attachments/assets/9db319ad-cca3-45dc-ab1c-247bdfedbf7e" />
 
-### Classic Xbox Dashboard — Games Discovery & Controller Navigation
-<img width="1232" height="752" alt="Screenshot 2026-11-19 075316" src="https://github.com/user-attachments/assets/3739c1f1-02f6-4d8e-a815-b5dbb9a57716" />
-
+**Game Menu (Xbox One Menu)**
+<img width="1232" height="752" alt="Screenshot 2026-11-19 075316" src="https://github.com/user-attachments/assets/5a370c12-dd28-4c9e-b3a7-8de3c2eb4d8f" />
 
 ---
 
@@ -58,7 +67,7 @@ A sneak peek at upcoming features currently in development, including the **Clas
 
 ## Installation
 
-1. Download the latest version from the Releases section.
+1. Download the latest version from the **Releases** section.
 2. Run the exe. Because the executable is unsigned, Windows SmartScreen will show a warning—click **More info** -> **Run anyway**.
 3. Nora detects your active `RobloxPlayerBeta.exe` path automatically on startup.
 
