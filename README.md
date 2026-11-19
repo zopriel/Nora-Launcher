@@ -6,9 +6,7 @@
 
 A modern, password-free desktop launcher and bootstrapper for Roblox featuring live game discovery, an advanced server browser, allowlisted FastFlag optimization, local playtime tracking, and full theme customization.
 
-[![Download Latest Release](https://shields.io)](https://github.com)
-![Platform](https://shields.io)
-![Security](https://shields.io)
+
 
 </div>
 
