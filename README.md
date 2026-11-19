@@ -27,10 +27,10 @@ A custom Windows desktop launcher and bootstrapper for Roblox.
 A sneak peek at upcoming features currently in development, including the **Classic Pre-2023 Xbox One Theme** and **Full Controller Support**.
 
 ### Classic Xbox Dashboard — Home & Friend Activity
-<img width="1273" height="757" alt="Classic Xbox Home Screen" src="https://github.com" />
+<img width="1273" height="757" alt="Screenshot 2026-11-19 075253" src="https://github.com/user-attachments/assets/ce6bbf8f-6dea-4906-b96a-406624b2fc12" />
 
 ### Classic Xbox Dashboard — Games Discovery & Controller Navigation
-<img width="1232" height="752" alt="Classic Xbox Games Tab" src="https://github.com" />
+<img width="1232" height="752" alt="Screenshot 2026-11-19 075316" src="https://github.com/user-attachments/assets/3739c1f1-02f6-4d8e-a815-b5dbb9a57716" />
 
 
 ---
