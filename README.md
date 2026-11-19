@@ -4,7 +4,6 @@ A custom Windows desktop launcher and bootstrapper for Roblox.
 
 ## FOR ANY PROBLEMS, CONTACT ME ON MY DISCORD: .mxcz
 
-
 ---
 
 ## Features
@@ -20,6 +19,19 @@ A custom Windows desktop launcher and bootstrapper for Roblox.
 | **Playtime Tracking** | Local session and total playtime tracking via `RobloxPlayerBeta.exe` process detection. |
 | **Themes** | *Midnight*, *Slate*, *AMOLED*, *Light*, *Christmas*, and *Galaxy* themes with custom accent colors. |
 | **Discord Rich Presence** | Work in progress. |
+
+---
+
+## Showcase / Upcoming Updates Preview
+
+A sneak peek at upcoming features currently in development, including the **Classic Pre-2023 Xbox One Theme** and **Full Controller Support**.
+
+### Classic Xbox Dashboard — Home & Friend Activity
+![Classic Xbox Home Screen](<img width="1273" height="757" alt="Screenshot 2026-11-19 075253" src="https://github.com/user-attachments/assets/3fcdbba1-3144-4f52-86b0-b60206597a00" />
+)
+### Classic Xbox Dashboard — Games Discovery & Controller Navigation
+![Classic Xbox Games Tab](<img width="1232" height="752" alt="Screenshot 2026-11-19 075316" src="https://github.com/user-attachments/assets/81f35312-a66b-45c0-8f05-b64ec534f0bc" />
+)
 
 ---
 
@@ -46,8 +58,8 @@ A custom Windows desktop launcher and bootstrapper for Roblox.
 
 ## Installation
 
-1. Download the latest `Nora Setup.exe` from **[Releases](https://github.com)**.
-2. Run the installer. Because the executable is unsigned, Windows SmartScreen will show a warning—click **More info** -> **Run anyway**.
+1. Download the latest `Nora Setup.exe` from **[Releases]([https://github.com](https://github.com/zopriel/Nora-Launcher/releases/tag/Release)**.
+2. Run the exe. Because the executable is unsigned, Windows SmartScreen will show a warning—click **More info** -> **Run anyway**.
 3. Nora detects your active `RobloxPlayerBeta.exe` path automatically on startup.
 
 ---
