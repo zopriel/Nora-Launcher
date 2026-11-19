@@ -1,67 +1,57 @@
-<div align="center">
-
 # Nora Launcher
 
-**A newer, brighter, faster way to play Roblox.**
-
-A modern, password-free desktop launcher and bootstrapper for Roblox featuring live game discovery, an advanced server browser, allowlisted FastFlag optimization, local playtime tracking, and full theme customization.
+A custom Windows desktop launcher and bootstrapper for Roblox.
 
 
-
-</div>
-
----
-
-## About
-
-Nora Launcher is a custom Windows desktop launcher and bootstrapper built to upgrade how you browse, optimize, and launch Roblox experiences—without ever asking for your password or touching your account cookies.
 
 ---
 
 ## Features
 
-### Game Discovery & Rich Modals
-* **Live Roblox Discovery:** Browse real-time explore categories (*Top Trending*, *Up-and-Coming*, *Most Players Online Now*) or search any experience instantly.
-* **Detailed Game Pages:** View thumbnails, live player counts, visits, like ratios, genres, and avatar types in one place.
-* **Built-In Creator & Group Viewers:** Click any creator or group to inspect bios, member counts, group shouts, member lists, and other published experiences without leaving the launcher.
-* **Advanced Server Browser:** Filter public servers by player count, ping, server FPS, or Job ID, preview player avatars inside each server, and join with a single click.
-
-### Bootstrapper & FastFlag Optimization
-* **Allowlisted FastFlag Presets:** Apply verified allowlisted optimization profiles (*Stock*, *Max FPS / Potato*, *Balanced Boost*, *Crisp Visuals*) directly to `ClientAppSettings.json`.
-* **Granular Graphics Controls:** Customize your graphics renderer (`D3D11`, `Vulkan`, `OpenGL`), texture quality, MSAA samples, render quality (`1–21`), 3D grass distance, voxelizer lighting, low-poly CSG, and custom JSON flags—complete with a live `ClientAppSettings.json` preview.
-* **Launch & System Controls:** Launch via official `roblox://` protocol URIs or directly through `RobloxPlayerBeta.exe`, set Windows CPU priority (`Normal`, `Above Normal`, `High`), auto-minimize Nora while playing, and clear Roblox temp/log caches in one click.
-
-### Social, Library & Catalog
-* **Nora Friends & Live Presence:** Search and add Roblox players locally to track who is online, in Studio, or in-game, and join joinable sessions directly.
-* **Favorites, Recents & Backup:** Pin favorite experiences, view recently played games, and export/import your friends and favorites list as a JSON backup.
-* **Built-In Marketplace Browser:** Search avatar items, bundles, limiteds, and animations with filters for category, subcategory, price range, creator username, and sales type.
-
-### Tracking & Customization
-* **Local Playtime & Session History:** Automatically detects `RobloxPlayerBeta.exe` to record session durations, total hours played, and session counts locally on your machine.
-* **Themes & Custom Accents:** Switch between **Midnight**, **Slate**, **AMOLED**, **Light**, **Christmas (Animated)**, and **Galaxy (Animated)** themes with a custom accent color picker.
-* **Discord Rich Presence *(Work in Progress)*:** Live browsing and in-game Discord status integration is currently in active development.
+| Feature | Details |
+| :--- | :--- |
+| **Game Discovery** | Live Roblox explore sorts, game search, thumbnails, player counts, visit stats, and like ratios. |
+| **Server Browser** | Public server list with ping, server FPS, player count, Job ID filtering, and direct server joining. |
+| **Users & Groups** | In-app creator profiles, group details, group shouts, member lists, and published experiences. |
+| **FastFlags & Launch Tweaks** | Allowlisted FPS presets (*Stock*, *Max FPS*, *Balanced*, *Crisp*), graphics API overrides (`D3D11`, `Vulkan`, `OpenGL`), texture/MSAA/render quality overrides, custom JSON flags, Windows CPU priority, and cache clearing. |
+| **Friends & Library** | Local friend tracking with live online/in-game presence, direct friend joining, favorites, recent games, and JSON import/export. |
+| **Catalog Browser** | Search avatar items, bundles, limiteds, and animations with category, price, creator, and sales filters. |
+| **Playtime Tracking** | Local session and total playtime tracking via `RobloxPlayerBeta.exe` process detection. |
+| **Themes** | *Midnight*, *Slate*, *AMOLED*, *Light*, *Christmas*, and *Galaxy* themes with custom accent colors. |
+| **Discord Rich Presence** | Work in progress. |
 
 ---
 
-## Security & Account Safety
+## Upcoming / Planned
 
-Nora is built from the ground up to keep your Roblox account safe:
-* **Zero Password or Cookie Access:** Nora never asks for your Roblox password and never reads or stores `.ROBLOSECURITY` cookies.
-* **Official OAuth 2.0 + PKCE:** Optional account sign-in uses Roblox's official browser OAuth 2.0 flow, with refresh tokens encrypted locally via OS-level credential storage.
-* **No Client Modification:** Nora launches the official, unmodified Roblox client using standard protocol URIs and allowlisted `ClientAppSettings.json` flags.
-
----
-
-## Installation (Windows)
-
-1. Head to the **[GitHub Releases page](https://github.com)** and download the latest `Nora Setup.exe`.
-2. Run the installer *(if Windows SmartScreen appears because the build is unsigned, click **More info** -> **Run anyway**)*.
-3. Nora will automatically detect your active `RobloxPlayerBeta.exe` installation on startup.
+* **Full Controller Support:** Navigate the bottom dock, scroll game carousels, filter servers, and launch games with a gamepad.
+* **Classic Pre-2023 Xbox Launcher Theme:** Recreates the 2016–2023 dark-blue Xbox One Roblox dashboard.
+* **Optional Pre-2023 Xbox Logging-In Screen:** Toggleable classic blue console login/loading screen on startup.
+* **Post-2023 Roblox Console Theme:** Recreates the modern PlayStation and Xbox console interface.
+* **Expanded Theme System & Dedicated Themes Window:** Additional themes and a separate themes window to keep Settings clean.
+* **Auto-Focus on Game Exit:** Automatically brings Nora to the front when closing Roblox.
+* **Community Bug Fixes:** Ongoing fixes for issues reported by users.
 
 ---
 
-## Copyright & Disclaimer
+## Account Safety
 
-Copyright (c) 2026 zopriel. All rights reserved. No license is granted to copy, modify, distribute, or create derivative works from this project. For permission, contact the repository owner.
+* **No passwords or cookies:** Nora never asks for your Roblox password and does not access `.ROBLOSECURITY` cookies.
+* **Official OAuth 2.0 (PKCE):** Account sign-in runs through Roblox's official browser OAuth flow, with refresh tokens encrypted locally via Windows credential storage.
+* **No client modification:** Launches the unmodified Roblox client using standard `roblox://` protocol URIs and allowlisted `ClientAppSettings.json` flags.
 
-Nora Launcher is an independent, community-made project and is not affiliated with, endorsed, or sponsored by Roblox Corporation.
+---
+
+## Installation
+
+1. Download the latest `Nora Setup.exe` from **[Releases](https://github.com)**.
+2. Run the installer. Because the executable is unsigned, Windows SmartScreen will show a warning—click **More info** -> **Run anyway**.
+3. Nora detects your active `RobloxPlayerBeta.exe` path automatically on startup.
+
+---
+
+## Copyright
+
+Copyright (c) 2026 zopriel. All rights reserved. No license is granted to copy, modify, distribute, or create derivative works from this project without permission from the repository owner.
+
+Nora Launcher is not affiliated with, endorsed, or sponsored by Roblox Corporation.
